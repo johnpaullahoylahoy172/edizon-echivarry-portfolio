@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #879F86;
+    color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #526B52;
+}
+
+.logo {
+    color: #E5EBDD;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #D5E5D0;
+}
+
+section {
+    padding: 100px 10%;
+    text-align: center;
+}
+
+.home {
+    min-height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.home-content {
+    text-align: left;
+}
+
+.home h1 {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    text-shadow: 0 0 15px #D5E5D0;
+}
+
+.home span {
+    color: #E0EBD9;
+}
+
+.home h2 {
+    margin-bottom: 15px;
+    color: #E0EBD9;
+}
+
+.profile-picture img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #D5E5D0;
+}
+
+p {
+    line-height: 1.8;
+    color: #F1F5ED;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #526B52;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #405840;
+}
+
+
+
+.card {
+    background: #F1F5ED;
+    color: #526B52;
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 15px;
+    max-width: 500px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    transition: 0.3s ease;
+}
+
+.card h1,
+.card h3 {
+    color: #526B52;
+    margin: 15px 0;
+}
+
+.card p {
+    color: #526B52;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+#contact h1 {
+    margin-bottom: 20px;
+}
+
+#contact p {
+    color: #FFFFFF;
+}
+
+
+
+footer {
+    background: #526B52;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    color: #F1F5ED;
+}
